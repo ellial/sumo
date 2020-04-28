@@ -77,19 +77,7 @@ void loop() {
           senState = +4;
         }
       }
-      //Display sensor results
-//      display.setCursor(0, 0);
-//      display.clearDisplay();
-//      display.print("SENL: ");
-//      display.println(SENL);
-//      display.print("SENR: ");
-//      display.println(SENR);
-//      display.print("SenState: ");
-//      display.println(senState);
-//      counter += 1;
-//      display.println(counter);
-//      display.display();
-//      display.clearDisplay();
+      
       //robot movement according to senState
       switch (senState) {
         case 0://no white line
